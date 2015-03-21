@@ -17,8 +17,7 @@ The text files must have the following format:
 TITLE: Your title here
 DATE: 1/9/2005
 
-Content of the blog post here. Make sure to separate the title and date from the
-blog post content with a newline.
+CONTENT: Content of the blog post here.
 
 You can have multiple paragraphs within the blog post.
 ```
