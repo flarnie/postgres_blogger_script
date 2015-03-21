@@ -5,6 +5,7 @@ script to create a PostgreSQL database with the following structure:
 
 Table: posts
 ```
+post_id SERIAL
 post_date DATETIME
 post_date_gmt DATETIME
 post_content LONGTEXT
