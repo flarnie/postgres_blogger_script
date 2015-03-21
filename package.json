@@ -1,0 +1,15 @@
+{
+  "name": "postgres_blogger_script",
+  "version": "0.0.1",
+  "description": "A script to insert rows into a PostgreSQL database from text files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgresql",
+    "blog"
+  ],
+  "author": "flarnie",
+  "license": "MIT"
+}
