@@ -37,3 +37,19 @@ If you don't have an existing database, create one:
 
 Create the 'posts' table in your database:
 > cat 'create_table.sql' | psql my_database
+
+##How To Use
+
+Put the blog posts in a directory called 'posts' and omit the directory name in
+the following command, or use the name of your directory of blog posts if it is
+different:
+
+> node index.js directory_containing_blog_posts/
+
+That will generate a file with the prefix 'insert-posts' and a date-in-ms number
+appended to the end to make it unique. Use that file to add your blog posts to
+the database, like so:
+
+> cat insertPosts-1426965702734.sql | psql my_database
+
+That's it!
